@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+
+# Ignore Jupyter Notebook temp files but KEEP the main notebook.ipynb
+*.ipynb_checkpoints/
+
+# Do NOT ignore .joblib files because Streamlit Cloud needs them to run the predictions!
